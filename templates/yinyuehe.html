@@ -177,21 +177,33 @@
 </head>
 <body>
 <ul>
-    <li><img src="../static/images/lp1.jpg" alt=""></li>
-    <li><img src="../static/images/lp3.jpg" alt=""></li>
-    <li><img src="../static/images/lp4.jpg" alt=""></li>
-    <li><img src="../static/images/lp5.jpg" alt=""></li>
-    <li><img src="../static/images/lp6.jpg" alt=""></li>
-    <li><img src="../static/images/lp7.png" alt=""></li>
+    <li>
+        <button onclick="buttonClicked(0)"><img src="../static/images/lp1.jpg" alt=""></button></li>
+    <li>
+        <button onclick="buttonClicked(1)"><img src="../static/images/lp3.jpg" alt=""></button></li>
+    <li>
+        <button onclick="buttonClicked(2)"><img src="../static/images/lp4.jpg" alt=""></button></li>
+    <li>
+        <button onclick="buttonClicked(3)"><img src="../static/images/lp5.jpg" alt=""></button></li>
+    <li>
+        <button onclick="buttonClicked(4)"><img src="../static/images/lp6.jpg" alt=""></button></li>
+    <li>
+        <button onclick="buttonClicked(5)"><img src="../static/images/lp7.png" alt=""></button></li>
 </ul>
 <img src="../static/images/xin.png" class="heart">
 <img src="../static/images/xin.png" class="heart2">
-<audio src="../static/voice/its%20your%20day.mp3" autoplay="autoplay" loop="loop"></audio>
+<audio id="bgm" src="../static/voice/its%20your%20day.mp3" autoplay="autoplay" loop="loop"></audio>
+<audio id="a0" src="../static/voice/所念皆星河.mp3" preload="auto" loop="loop"></audio>
+<audio id="a1" src="../static/voice/xiaoxingyun.mp3" preload="auto" loop="loop"></audio>
+<audio id="a2" src="../static/voice/yuai.mp3" preload="auto" loop="loop"></audio>
+<audio id="a3" src="../static/voice/love%20story.mp3" preload="auto" loop="loop"></audio>
+<audio id="a4" src="../static/voice/Ed%20Sheeran%20-%20Perfect%20(Official%20Music%20Video)%20(320%20kbps).mp3" preload="auto" loop="loop"></audio>
+<audio id="a5" src="../static/voice/djyt林俊傑%20JJ%20Lin%20-%20豆漿油條【動態歌詞Lyrics】【抖音经典歌曲】%20(320%20kbps).mp3" preload="auto" loop="loop"></audio>
 <form action="/1314" method="post">
     <!--        <input type="submit" value="post请求" name="bow"/>-->
     <p></p>
     <style type="text/css">
-        button {
+        .input_btn {
             width: 200px;
             padding:8px;
             background-color: blueviolet;
@@ -211,12 +223,27 @@
         }
     </style>
     <body>
-    <button>
+    <button class="input_btn">
         Final surprise ໒(⊙ᴗ⊙)७✎▤
     </button>
     </body>
 
 </form>
 
+
+<script>
+    var current = 'bgm';
+    const audioIDs = ['a0','a1','a2','a3','a4','a5']
+    function buttonClicked(index){
+        var currentAudio = document.getElementById(current);
+        if (!currentAudio.paused){
+            currentAudio.pause();
+        }
+        current = audioIDs[index];
+        var nextAudioToPlay = document.getElementById(current);
+        nextAudioToPlay.play();
+
+    }
+</script>
 </body>
 </html>

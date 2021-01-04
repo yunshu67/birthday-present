@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d05dfd68-2080-4b60-912d-89945d75e013" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/happy_love-wallpaper-480x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/love_kiss_2-wallpaper-1920x1080.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/love_kiss_2-wallpaper-480x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/lp7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/xin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/yinyuehe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/shenri.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/shenri.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/Ed Sheeran - Perfect (Official Music Video) (320 kbps).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/djyt林俊傑 JJ Lin - 豆漿油條【動態歌詞Lyrics】【抖音经典歌曲】 (320 kbps).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/love story.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/xiaoxingyun.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/yuai.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/voice/夜、萤火虫和你.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hellow.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hellow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/yinyuehe.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/yinyuehe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609695636721</updated>
       <workItem from="1609695638147" duration="3649000" />
-      <workItem from="1609699391765" duration="11789000" />
+      <workItem from="1609699391765" duration="16654000" />
     </task>
     <servers />
   </component>
